@@ -34,8 +34,8 @@ from socket import gethostname
 import sys
 import time
 
-import slack
-from log import *
+from localslackirc import slack
+from localslackirc.log import *
 
 
 # How slack expresses mentioning users

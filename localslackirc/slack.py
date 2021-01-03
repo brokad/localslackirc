@@ -25,10 +25,10 @@ from typing import *
 
 from typedload import load, dump
 
-from diff import seddiff
-from slackclient import SlackClient
-from slackclient.client import LoginInfo
-from log import *
+from localslackirc.diff import seddiff
+from localslackirc.slackclient import SlackClient
+from localslackirc.slackclient.client import LoginInfo
+from localslackirc.log import *
 
 
 USELESS_EVENTS = {
